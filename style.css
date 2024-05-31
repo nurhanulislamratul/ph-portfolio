@@ -167,9 +167,121 @@
     letter-spacing: -0.60px;
 
 }
-
-
   /* my-self-section Style End */
+
+  /* about section Style Start*/
+.about-section {
+    margin-top: 5rem;
+ 
+  }
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-1 h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 1rem;
+  }
+  .container-1 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--white-half);
+  }
+  .container-2 h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    color: var(--white);
+  }
+  .container-2 p {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--white);
+  }
+  .container-2 img {
+    margin-bottom: 1rem;
+  }
+  /* about section Style End*/
+
+  /* full width section Style Start */
+.full-container {
+  width: 90vw;
+  background-image: linear-gradient(to right, #2d2531, #342d22);
+  margin-top: 3rem;
+}
+.half-container {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+.half-item-1 h3 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.half-item-1 h1 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.half-item-1 p {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.half-item-2 h3 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+}
+.half-item-2 p {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+}
+.half-item-2 h2 {
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.same-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+  margin-bottom: 8px;
+  margin-top: 1.5rem;
+}
+.three-container {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--white);
+}
+  /* full width section Style End */
+
+  
+
 
 
 
