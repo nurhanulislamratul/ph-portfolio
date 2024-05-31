@@ -55,6 +55,7 @@
   /* my-self-section Style Start */
 .my-self-section {
     margin-top: 4rem;
+    
   }
   .my-self h1 {
     color: var(--white);
@@ -140,8 +141,36 @@
   .fa-brands {
     color: var(--white-half);
   }
+
+  .long-banner {
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 40px;
+    background-color: black;
+    /* height: 55px; */
+    padding: 42px 0px 42px 41px;
+    transform: rotate(-3.969deg);
+    /* position: absolute; */
+    align-items: center;
+    justify-content: flex-end;
+    
+    
+}
+
+.long-banner p{
+    color: var(--white, #FFF);
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.60px;
+
+}
+
+
   /* my-self-section Style End */
 
-  
+
 
   
