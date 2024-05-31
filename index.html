@@ -230,19 +230,25 @@
         <h1 id="ps">Reach out me</h1>
         <div class="form">
             <h1>any project?</h1>
-            <form action="">
-                    <div>
-                        <input class="fun" type="text" placeholder="NAME">
-                    </div>
-                    <div>
-                        <input class="fun" type="email" placeholder="EMAIL">
-                    </div>
-               <div> <input class="fun" type="text" placeholder="MESSAGE"></div>
-               <div>
-                <input class="fun" type="file" placeholder="ATTACH FILE">
-               </div>
+            <form action="/submit" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file">Attach File</label>
+                    <input type="file" id="file" name="file">
+                </div>
+                <button type="submit">Submit now</button>
             </form>
-            <button>Submit Now</button>
         </div>
     </section>
 </main>
