@@ -280,6 +280,72 @@
 }
   /* full width section Style End */
 
+  /* main section Style start  */
+
+main{
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+/* awards section Style Start */
+.award-section{
+  margin-top: 5rem;
+}
+.award-section h1{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+}
+.award-section #text{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: var(--white-half);
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 1rem;
+}
+.awards-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.award-number{
+  padding: 2rem;
+  width: 100%;
+  background-color: #000;
+}
+.award-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.awards-container h2{
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 24px;
+  font-weight: 400;
+}
+.awards-container h3{
+  font-family: "Rubik", sans-serif;
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+}
+.awards-container p{
+  font-family: "Rubik", sans-serif;
+  color: var(--white-half);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: auto;
+}
+/* awards section Style End */
+
   
 
 
